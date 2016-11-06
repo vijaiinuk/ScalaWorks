@@ -1,3 +1,4 @@
+import scala.annotation.tailrec
 
 def factorial(n : Int): Int = {
 
@@ -13,6 +14,7 @@ factorial(10)
 
 def factorialTailRec(n: Int): Double = {
 
+  @tailrec
   def loop(n: Int, acc: Int): Double = {
     println("n: "+n+" acc: "+acc)
     if(n <= 0) acc
