@@ -1,0 +1,2 @@
+# ScalaWorks
+Scala book excercises
